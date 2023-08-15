@@ -17,6 +17,8 @@ selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+**Gabriel Alon** 
+
 Data Scientist 📈 and Coffee Enthousiast ☕
 
 Master of Applied Data Science 🎓📜
