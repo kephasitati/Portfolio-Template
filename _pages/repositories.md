@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: These projects are eloquently explained with accompanied writing
+description: These projects are eloquently explained with writing
 nav: true
 nav_order: 4
 ---
@@ -14,8 +14,6 @@ nav_order: 4
 **mads-696-milestone-II-YouChoose** [Medium Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 
 
-
-## GitHub users
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
