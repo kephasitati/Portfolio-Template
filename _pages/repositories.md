@@ -17,8 +17,7 @@ spectrum of outputs from the softmax function from where the top prediction are 
   
 **mads-696-milestone-II-YouChoose** [Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 This precedes the youtube_llm project above. This project explores unsupervised and supervised learning models to understand
-the categories of disliked videos on YouTube. The report shows gorgeous visuals and tables that explain the findings.
-
+the categories of disliked videos on YouTube.
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
