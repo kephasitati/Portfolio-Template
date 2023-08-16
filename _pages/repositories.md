@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /Coding-Projects/
+permalink: /coding-projects/
 title: Coding Projects
 description: I led the direction of these large Python projects. Each took several months and involved collaborators.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 **youtube_llm** [Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca) | [Video](https://drive.google.com/file/d/10EIKd1QhmoLsq2TeQgsYkP51RMODiRMc/view)
