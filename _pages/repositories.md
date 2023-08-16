@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: These projects are eloquently explained with writing
+title: Coding Projects
+description: I led the direction of these large research projects. Each took several months and involved collaborators.
 nav: true
 nav_order: 4
 ---
 
-**youtube_llm** [Medium Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca) [Video](https://drive.google.com/file/d/10EIKd1QhmoLsq2TeQgsYkP51RMODiRMc/view)
+**youtube_llm** [Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca) | [Video](https://drive.google.com/file/d/10EIKd1QhmoLsq2TeQgsYkP51RMODiRMc/view)
 This is a YouTube recommendation website that plays real videos and makes recommendations
 using LLMs like BERT and ChatGPT to increase personalization.
 
@@ -15,7 +15,7 @@ using LLMs like BERT and ChatGPT to increase personalization.
 Transformer neural networks are usually evaluated based on their top prediction per test question. We evaluate the broader
 spectrum of outputs from the softmax function from where the top prediction are sourced from during training and testing. 
   
-**mads-696-milestone-II-YouChoose** [Medium Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
+**mads-696-milestone-II-YouChoose** [Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 This precedes the youtube_llm project above. This project explores unsupervised and supervised learning models to understand
 the categories of disliked videos on YouTube. The report shows gorgeous visuals and tables that explain the findings.
 
