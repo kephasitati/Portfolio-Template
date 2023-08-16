@@ -2,6 +2,7 @@ github_users:
   - galonpy
 
 github_repos:
+- galonpy/youtube_llm
 - kamfonas/GR-GRIM
 - wagz2000/mads-696-milestone-II-YouChoose
  # - mathjax/MathJax
