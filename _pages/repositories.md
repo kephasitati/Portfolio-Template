@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /coding-projects/
-title: Coding Projects
+title: coding projects
 description: I led the direction of these large Python projects. Each took several months and involved collaborators.
 nav: true
 nav_order: 3
