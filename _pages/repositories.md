@@ -2,15 +2,18 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: These projects are eloquently explained with accompanied writing ':'
-  **youtube_llm** [Medium Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca)
-  **GR-GRIM** [Arxiv Publication] (https://arxiv.org/abs/2206.14348)
-  **mads-696-milestone-II-YouChoose** [Medium Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
-
-#description: Edit the `_data/repositories.yml` and change the 3`github_users` and `github_repos` lists to include your own GitHub profile #and repositories.
+description: These projects are eloquently explained with accompanied writing
 nav: true
 nav_order: 4
 ---
+
+**youtube_llm** [Medium Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca)
+
+**GR-GRIM** [Arxiv Publication] (https://arxiv.org/abs/2206.14348)
+  
+**mads-696-milestone-II-YouChoose** [Medium Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
+
+
 
 ## GitHub users
 
