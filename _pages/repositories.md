@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /repositories/
+permalink: /Coding-Projects/
 title: Coding Projects
-description: I led the direction of these large research projects. Each took several months and involved collaborators.
+description: I led the direction of these large Python projects. Each took several months and involved collaborators.
 nav: true
 nav_order: 4
 ---
