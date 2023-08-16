@@ -9,7 +9,7 @@ nav_order: 4
 
 **youtube_llm** [Medium Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca)
 
-**GR-GRIM** [Arxiv Publication] (https://arxiv.org/abs/2206.14348)
+**GR-GRIM** [Arxiv Publication](https://arxiv.org/abs/2206.14348)
   
 **mads-696-milestone-II-YouChoose** [Medium Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 
