@@ -4,7 +4,7 @@ permalink: /coding-projects/
 title: coding projects
 description: I led the direction of these large Python projects. They each took several months and were academically reviewed.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 **youtube_llm** [Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca) | [Video](https://drive.google.com/file/d/10EIKd1QhmoLsq2TeQgsYkP51RMODiRMc/view)
