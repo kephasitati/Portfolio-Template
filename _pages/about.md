@@ -23,7 +23,7 @@ Data Scientist 📈 and Coffee Enthousiast ☕
 
 Master of Applied Data Science 🎓📜
 
-Data Science is my passion and my career path. I am **fascinated** by the power of the tools that data scientists have to discover patterns, predict unknowns, persuade audiences, and create positive changes in the world. This career path is exciting because it gets to keep up with the latest advancements in statistics and computer science. I am also motivated by the opportunity to explore new kinds of data and work with talented people.
+Data Science is my passion and my career path. I am **fascinated** by the power of the tools that data scientists have to discover patterns, predict unknowns, persuade audiences, and create positive changes in the world. I am also motivated by the opportunity to explore new kinds of data and work with talented people.
 
 As a Masters in Applied Data Science from The University of Michigan, I:
 
