@@ -21,7 +21,7 @@ This precedes the youtube_llm project above. This project explores unsupervised 
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><
 
 
-**This Website** I built this website in roughly three days without prior knowledge of front-end, Html, Javascript, or CSS. I adapted it from [al-folio](https://github.com/alshedivat/al-folio) starter code that relies on Jekyll, and GitHub Actions for CI/CD.  
+**This Website** I built this website in roughly three days without prior knowledge of front-end, HTML, Javascript, or CSS. I adapted it from [al-folio](https://github.com/alshedivat/al-folio) starter code that relies on Jekyll, and GitHub Actions for CI/CD.  
 
 
 {% if site.data.repositories.github_users %}
