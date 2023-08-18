@@ -18,6 +18,11 @@ spectrum of outputs from the softmax function from where the top prediction are 
 **mads-696-milestone-II-YouChoose** [Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 This precedes the youtube_llm project above. This project explores unsupervised and supervised machine learning models to understand disliked videos on YouTube.
 
+<><><><><><><><><>
+
+**This Website** I built this website in roughly three days without prior knowledge of front-end, Html, Javascript, or CSS. I adapted it from [al-folio](https://github.com/alshedivat/al-folio) starter code that relies on Jekyll, and GitHub Actions for CI/CD.  
+
+
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
