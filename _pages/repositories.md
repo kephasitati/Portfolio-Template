@@ -16,7 +16,6 @@ Created a recommendation engine for browsing YouTube videos with LLMs. Made a Py
 **mads-696-milestone-II-YouChoose** [Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 This precedes the youtube_llm project above. This project explores unsupervised and supervised machine learning models to understand disliked videos on YouTube.
 
-***
 
 **This Website** I built this website in roughly three days without prior knowledge of front-end, HTML, Javascript, or CSS. I adapted it from [al-folio](https://github.com/alshedivat/al-folio) starter code that relies on Jekyll, and GitHub Actions for CI/CD.  
 
