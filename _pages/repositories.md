@@ -10,11 +10,8 @@ nav_order: 2
 **Health Prediction** [Code](https://github.com/galonpy/healthcare_example_notebook) Predicting healthcare status from prescription drug history! It can predict a text health status of a new patient. This task was requested and reviewed by an insurance provider while I was at the University of Michigan.
 
 **youtube_llm** [Code](https://github.com/galonpy/youtube_llm) | [Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca) | [Video](https://drive.google.com/file/d/10EIKd1QhmoLsq2TeQgsYkP51RMODiRMc/view)
-Created a recommendation engine for browsing YouTube videos with LLMS. Made a PyTorch fine-tuned BERT, and leveraged the ChatGPT-API. Built using HuggingFace, AWS RDS, ETL, YouTube’s API, Docker, Json Data. Led a team of 4. Plays videos on a Streamlit website.
+Created a recommendation engine for browsing YouTube videos with LLMs. Made a PyTorch fine-tuned BERT, and leveraged the ChatGPT-API. Built using HuggingFace, AWS RDS, ETL, YouTube’s API, Docker, Json Data. Led a team of 4. Plays videos on a Streamlit website.
 
-**GR-GRIM** [Arxiv Publication](https://arxiv.org/abs/2206.14348)
-Transformer neural networks are usually evaluated based on their top prediction per test question. We evaluate the broader
-spectrum of outputs from the softmax function from where the top prediction are sourced from during training and testing. 
   
 **mads-696-milestone-II-YouChoose** [Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 This precedes the youtube_llm project above. This project explores unsupervised and supervised machine learning models to understand disliked videos on YouTube.
