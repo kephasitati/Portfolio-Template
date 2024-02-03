@@ -7,11 +7,10 @@ nav: true
 nav_order: 2
 ---
 
-**Health Prediction** The causal model estimates the probability of a healthcare status being linked to a prescription drug history. It can predict a text health status of a new patient. This task was requested and reviewed by an insurance provider.
+**Health Prediction** [Code](https://github.com/galonpy/healthcare_example_notebook) This Python causal model estimates the probability of a healthcare status being linked to a prescription drug history. It can predict a text health status of a new patient. This task was requested and reviewed by an insurance provider.
 
-**youtube_llm** [Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca) | [Video](https://drive.google.com/file/d/10EIKd1QhmoLsq2TeQgsYkP51RMODiRMc/view) | [Website](https://youtube-capstone.streamlit.app/)
-This is a YouTube recommendation website that plays real videos and makes recommendations
-using LLMs like BERT and ChatGPT to increase personalization.
+**youtube_llm** [Code](https://github.com/galonpy/youtube_llm)[Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca) | [Video](https://drive.google.com/file/d/10EIKd1QhmoLsq2TeQgsYkP51RMODiRMc/view)
+Created a PyTorch fine-tuned BERT, and ChatGPT-API recommendation engine for browsing YouTube videos. Built using HuggingFace, AWS RDS, ETL, YouTube’s API, Docker, Json Data. Led a team of 4. Plays videos on a Streamlit website.
 
 **GR-GRIM** [Arxiv Publication](https://arxiv.org/abs/2206.14348)
 Transformer neural networks are usually evaluated based on their top prediction per test question. We evaluate the broader
