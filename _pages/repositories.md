@@ -2,7 +2,7 @@
 layout: page
 permalink: /coding-projects/
 title: coding projects
-description: I'm happy to share my work with you:
+description: I'm happy to share my work with you':'
 nav: true
 nav_order: 2
 ---
