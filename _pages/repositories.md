@@ -9,9 +9,9 @@ nav_order: 2
 
 **YouTube Recommendation Website** [Code](https://github.com/galonpy/youtube_llm) | [Article](https://medium.com/@gabrielalon257/youtube-filtering-capstone-67f755fb6dca) | [Video](https://drive.google.com/file/d/10EIKd1QhmoLsq2TeQgsYkP51RMODiRMc/view)
 This is a YouTube recommendation website that plays real videos and makes recommendations
-using LLMs like BERT and ChatGPT based on users stated preferences.
+using LLMs like BERT and ChatGPT based on users' stated preferences.
 
-**Health Prediction** [Code](https://github.com/galonpy/healthcare_example_notebook/blob/main/demo_notebook.ipynb) Predicting healthcare status from prescription drug history! This causal inference model can predict a text health status of a new patient. This task was requested and reviewed by an insurance provider while I was at the University of Michigan.
+**Health Predictions** [Code](https://github.com/galonpy/healthcare_example_notebook/blob/main/demo_notebook.ipynb) Predicting healthcare status from prescription drug history! This causal inference model can predict a text health status of a new patient. This task was requested and reviewed by an insurance provider while I was at the University of Michigan.
   
 **Unsupervised Machine Learning on Videos** [Code](https://github.com/galonpy/mads-696-milestone-II-YouChoose) | [Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 This precedes the YouTube Website project above. This project explores unsupervised and supervised machine learning models to understand disliked videos on YouTube.
