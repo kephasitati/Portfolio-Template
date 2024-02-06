@@ -2,7 +2,7 @@
 layout: page
 permalink: /coding-projects/
 title: coding projects
-description: I led the direction of these large Python projects. They each took several months and were academically reviewed.
+description: I'm happy to discuss these with you:
 nav: true
 nav_order: 2
 ---
@@ -11,7 +11,7 @@ nav_order: 2
 This is a YouTube recommendation website that plays real videos and makes recommendations
 using LLMs like BERT and ChatGPT based on a user's stated preferences.
 
-**Health Predictions** [Code](https://github.com/galonpy/healthcare_example_notebook/blob/main/demo_notebook.ipynb) Predicting healthcare status from prescription drug history! This causal inference model can predict a text health status of a new patient. This task was requested and reviewed by an insurance provider while I was at the University of Michigan.
+**Health Predictions** [Jupyter Notebook Code](https://github.com/galonpy/healthcare_example_notebook/blob/main/demo_notebook.ipynb) Predicting healthcare status from prescription drug history! This causal inference model can predict a text health status of a new patient. This task was requested and reviewed by an insurance provider while I was at the University of Michigan.
   
 **Unsupervised Machine Learning on Videos** [Code](https://github.com/galonpy/mads-696-milestone-II-YouChoose) | [Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 This precedes the YouTube Website project above. This project explores unsupervised and supervised machine learning models to understand disliked videos on YouTube.
