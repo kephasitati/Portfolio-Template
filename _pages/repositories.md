@@ -13,7 +13,7 @@ using LLMs like BERT and ChatGPT based on users stated preferences.
 
 **Health Prediction** [Code](https://github.com/galonpy/healthcare_example_notebook/blob/main/demo_notebook.ipynb) Predicting healthcare status from prescription drug history! This causal inference model can predict a text health status of a new patient. This task was requested and reviewed by an insurance provider while I was at the University of Michigan.
   
-**Unsupervised Machine Learning on Videos** [Code](https://github.com/galonpy/mads-696-milestone-II-YouChoose)| [Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
+**Unsupervised Machine Learning on Videos** [Code](https://github.com/galonpy/mads-696-milestone-II-YouChoose) | [Article](https://medium.com/@gabrielalon257/predicting-youtube-dislikes-4c71a41718ac)
 This precedes the YouTube Website project above. This project explores unsupervised and supervised machine learning models to understand disliked videos on YouTube.
 
 **This Website/Client Website** [Code](https://github.com/galonpy/galonpy.github.io) I have built this kind of website in roughly three days for myself and clients. I did not have prior knowledge of front-end, HTML, Javascript, or CSS. I adapted it from [al-folio](https://github.com/alshedivat/al-folio) starter code that relies on Jekyll, and GitHub Actions for CI/CD.  
