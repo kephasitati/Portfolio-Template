@@ -1,29 +1,30 @@
-name: Frequent Update
+name: Update README
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Attempt to run every minute (may be throttled)
-  workflow_dispatch:  # Allows manual execution
-
-permissions:
-  contents: write  # Fixes push permission issues
+    - cron: "25 17 * * *"  # Runs daily at 17:25 UTC (but we'll adjust for PST/PDT)
 
 jobs:
-  update:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Make changes
+      - name: Update README
         run: |
-          echo "Last run: $(date)" > update_log.txt  # Example update
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add update_log.txt
-          git commit -m "Frequent update: $(date)" || echo "No changes to commit"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Set the timezone to America/Los_Angeles
+          TZ=America/Los_Angeles date "+%Y-%m-%d %H:%M %Z" # example of setting timezone
+
+          # or you can use `timedatectl` to set the timezone on the runner.
+          sudo timedatectl set-timezone 'America/Los_Angeles'
+
+          echo "Last updated: $(date +'%Y-%m-%d %H:%M %Z')" >> README.md
+          # or use sed with proper markers
+          # sed -i "s/Last updated:.*/Last updated: $(date +'%Y-%m-%d %H:%M %Z')/g" README.md
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Updated README: $(date +'%Y-%m-%d %H:%M %Z')"
+          file_pattern: README.md
