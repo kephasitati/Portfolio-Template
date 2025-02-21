@@ -1,32 +1,27 @@
-name: Update README
+name: Update Daily Sync File
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Runs every 5 minutes
+    - cron: '*/5 * * * *' # Runs every 5 minutes
+  workflow_dispatch: # Allows manual triggering
+
 jobs:
-  update-readme:
+  update-file:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set timezone and update README
+      - name: Set up Git
         run: |
-          # Set timezone for this session
-          export TZ=America/Los_Angeles
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
 
-          # Define the timestamp
-          TIMESTAMP="Last updated: $(date +'%Y-%m-%d %H:%M %Z')"
-
-          # Ensure the target line exists before replacing
-          if grep -q "Last updated:" README.md; then
-            sed -i "s/Last updated:.*/$TIMESTAMP/g" README.md
-          else
-            echo "$TIMESTAMP" >> README.md
-          fi
+      - name: Update daily_sync.txt
+        run: echo "$(date +'%Y-%m-%d %H:%M:%S')" > daily_sync.txt
 
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Updated README: $(date +'%Y-%m-%d %H:%M %Z')"
-          file_pattern: README.md
+        run: |
+          git add daily_sync.txt
+          git commit -m "Update daily_sync.txt with today's date and time"
+          git push
