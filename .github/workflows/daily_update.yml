@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "25 17 * * *"  # Runs daily at 17:25 UTC (but we'll adjust for PST/PDT)
+    - cron: "25 17 * * *"  # Runs daily at 17:25 UTC (9:25 AM PST/PDT)
 
 jobs:
   update-readme:
@@ -11,17 +11,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update README
+      - name: Set timezone and update README
         run: |
-          # Set the timezone to America/Los_Angeles
-          TZ=America/Los_Angeles date "+%Y-%m-%d %H:%M %Z" # example of setting timezone
+          # Set timezone for this session
+          export TZ=America/Los_Angeles
 
-          # or you can use `timedatectl` to set the timezone on the runner.
-          sudo timedatectl set-timezone 'America/Los_Angeles'
+          # Define the timestamp
+          TIMESTAMP="Last updated: $(date +'%Y-%m-%d %H:%M %Z')"
 
-          echo "Last updated: $(date +'%Y-%m-%d %H:%M %Z')" >> README.md
-          # or use sed with proper markers
-          # sed -i "s/Last updated:.*/Last updated: $(date +'%Y-%m-%d %H:%M %Z')/g" README.md
+          # Ensure the target line exists before replacing
+          if grep -q "Last updated:" README.md; then
+            sed -i "s/Last updated:.*/$TIMESTAMP/g" README.md
+          else
+            echo "$TIMESTAMP" >> README.md
+          fi
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
